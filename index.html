@@ -8,50 +8,63 @@
   <title>Document</title>
 </head>
 
+<!--P = Parent
+    C = Child
+-->
+
 <body>
+
+  <nav>
+    <p class="welcome">Welcome to my Portfolio</p>
+    <ul id="banner-nav">
+      <li class="nav-links"><a href="#aboutme">About me</a></li>
+      <li class="nav-links"><a href="#works-p">My Works</a></li>
+      <li class="nav-links"><a href="#contactme-p">Contact Me</a></li>
+    </ul>
+  </nav>
 
   <header>
 
-    <nav>
-      <ul id="banner-nav">
-        <li class="nvl"><a href="#aboutme"></a>About me</li>
-        <li class="nvl"><a href="#myworks"></a>My Works</li>
-        <li class="nvl"><a href="#contactme"></a>Contact Me</li>
-      </ul>
-    </nav>
-
-    <section id="banner-me">
-      <img id="pfp" src="./assets/images/IMG_20221213_141104636_processed.jpg"
+    <section class="leftheader" id="aboutme">
+      <img src="./assets/images/IMG_20221213_141104636_processed.jpg"
         alt="Profile Photo">
-      <h1 id="myname">Tess Eir</h1>
-      <p>Welcome to my Portfolio</p>
+      <h1 class="">Tess Eir</h1>
     </section>
+
+    <article class="rightheader" id="aboutme">
+      <div><h2>About Me</h2></div>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo corrupti saepe,
+          iure itaque earum deserunt, dolorem rem, exercitationem repudiandae suscipit
+          minima facilis temporibus cumque nobis neque nisi error consectetur deleniti?</p>
+    </article>
 
   </header>
 
-  <main>
+  <section class="flex-con" id="works-p">
+    <div class="work-header"><h2>My works</h2></div>
+    <figure id="works-c">
+      <a class="work-links" href="https://github.com/tesseir/Prework-Study-Guide" target="_blank"><img src="./assets/images/Prework-Study-Guide.png"></a>
+      <a  class="work-links" href="https://github.com/tesseir/Semantic-html" target="_blank"><img src="./assets/images/Semantic-html.png"></a>
+    </figure>
+  </section>
 
-    <article>
-      <div class="amh"><h2 id="amtitle">About Me</h2></div>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo corrupti saepe,
-        iure itaque earum deserunt, dolorem rem, exercitationem repudiandae suscipit
-        minima facilis temporibus cumque nobis neque nisi error consectetur deleniti?</p>
-    </article>
 
+  <section class="flex-con" id="contactme-p">
+    <div class="contactme-h"><h2>Contact Me</h2></div>
+    <nav>
+      <ul id="contactme-c">
+        <li class="cmlinks"><a href="blank" target="_blank">Email</a></li>
+        <li class="cmlinks"><a href="blank" target="_blank">Linkedin</a></li>
+        <li class="cmlinks"><a href="https://github.com/tesseir" target="_blank">Github</a></li>
+      </ul>
+    </nav>
+  </section>
 
-    <section class="flex-con" id="wk-p">
-      <div></div>
-    </section>
-
-    <section class="flex-con" id="cm-p">
-      <div></div>
-    </section>
-
-  </main>
+  <footer>
+    <a class="footer-b" href="banner-nav">Back to Top</a>
+  </footer>
 
 </body>
-<footer>
-
-</footer>
 
 </html>
+
