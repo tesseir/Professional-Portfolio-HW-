@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="stylesheet" href="./stylesheet.css">
+  <title>Tess's Portfolio</title>
 </head>
 
 <!--P = Parent
@@ -14,9 +15,9 @@
 
 <body>
 
-  <nav>
-    <h1 class="welcome">Welcome to my Portfolio</h1>
-    <ul id="banner-nav">
+  <nav class="banner-p">
+    <span class="welcome">Welcome to my Portfolio</span>
+    <ul id="banner-c">
       <li class="nav-links"><a href="#aboutme">About me</a></li>
       <li class="nav-links"><a href="#works-p">My Works</a></li>
       <li class="nav-links"><a href="#contactme-p">Contact Me</a></li>
@@ -27,7 +28,7 @@
 
     <section class="leftheader" id="aboutme">
       <img src="./assets/images/IMG_20221213_141104636_processed.jpg" alt="Profile Photo">
-      <h2 class="">Tess Eir</h2>
+      <h1 class="">Tess Eir</h1>
     </section>
 
     <article class="rightheader" id="aboutme">
@@ -41,11 +42,11 @@
 
   </header>
 
+  <div class="works-header">
+    <h2>My works</h3>
+  </div>
   <section class="flex-con" id="works-p">
-    <div class="work-header">
-      <h2>My works</h2>
-    </div>
-    <figure id="works-c">
+    <figure class="works-c">
       <a class="work-links" href="https://github.com/tesseir/Prework-Study-Guide"
         target="_blank"><img src="./assets/images/Prework-Study-Guide.png"></a>
       <a class="work-links" href="https://github.com/tesseir/Semantic-html"
@@ -53,13 +54,12 @@
     </figure>
   </section>
 
-
+  <div class="contactme-header">
+    <h2>Contact Me</h3>
+  </div>
   <section class="flex-con" id="contactme-p">
-    <div class="contactme-h">
-      <h2>Contact Me</h2>
-    </div>
     <nav>
-      <ul id="contactme-c">
+      <ul class="contactme-c">
         <li class="cmlinks"><a href="blank" target="_blank">Email</a></li>
         <li class="cmlinks"><a href="blank" target="_blank">Linkedin</a></li>
         <li class="cmlinks"><a href="https://github.com/tesseir"
