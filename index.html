@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./stylesheet.css">
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/stylesheet.css">
   <title>Tess's Portfolio</title>
 </head>
 
@@ -15,62 +16,62 @@
 
 <body>
 
-  <nav class="banner-p">
-    <span class="welcome">Welcome to my Portfolio</span>
-    <ul id="banner-c">
-      <li class="nav-links"><a href="#aboutme">About me</a></li>
-      <li class="nav-links"><a href="#works-p">My Works</a></li>
-      <li class="nav-links"><a href="#contactme-p">Contact Me</a></li>
-    </ul>
-  </nav>
+  <div id="view-port">
 
-  <header>
+    <header>
 
-    <section class="leftheader" id="aboutme">
-      <img src="./assets/images/IMG_20221213_141104636_processed.jpg" alt="Profile Photo">
-      <h1 class="">Tess Eir</h1>
-    </section>
+      <section id="logo-area">
+        <img class="mypfp" src="./assets/images/VAPORGRAM1670693670954.png"
+          alt="Profile Photo">
+        <h1 class="myname">Tess Eir</h1>
+      </section>
 
-    <article class="rightheader" id="aboutme">
-      <div>
+      <nav class="banner-p">
+        <ul id="banner-c">
+          <li class="nav-links"><a href="#aboutme">About me</a></li>
+          <li class="nav-links"><a href="#works-p">My Works</a></li>
+          <li class="nav-links"><a href="#contactme-p">Contact Me</a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <section id="aboutme">
+      <div class="section-title">
         <h2>About Me</h2>
       </div>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo corrupti saepe,
-        iure itaque earum deserunt, dolorem rem, exercitationem repudiandae suscipit
-        minima facilis temporibus cumque nobis neque nisi error consectetur deleniti?</p>
-    </article>
+      iure itaque earum deserunt, dolorem rem, exercitationem repudiandae suscipit
+      minima facilis temporibus cumque nobis neque nisi error consectetur deleniti?</p>
+      </section>
 
-  </header>
-
-  <div class="works-header">
-    <h2>My works</h3>
-  </div>
-  <section class="flex-con" id="works-p">
-    <figure class="works-c">
-      <a class="work-links" href="https://github.com/tesseir/Prework-Study-Guide"
+    <section id="works-p">
+    <div class="section-title">
+      <h2>My works</h3>
+    </div>
+      <figure class="works-c">
+        <a class="work-links" href="https://github.com/tesseir/Prework-Study-Guide"
         target="_blank"><img src="./assets/images/Prework-Study-Guide.png"></a>
-      <a class="work-links" href="https://github.com/tesseir/Semantic-html"
+        <a class="work-links" href="https://github.com/tesseir/Semantic-html"
         target="_blank"><img src="./assets/images/Semantic-html.png"></a>
-    </figure>
-  </section>
+      </figure>
+    </section>
 
-  <div class="contactme-header">
-    <h2>Contact Me</h3>
-  </div>
-  <section class="flex-con" id="contactme-p">
-    <nav>
-      <ul class="contactme-c">
-        <li class="cmlinks"><a href="blank" target="_blank">Email</a></li>
-        <li class="cmlinks"><a href="blank" target="_blank">Linkedin</a></li>
-        <li class="cmlinks"><a href="https://github.com/tesseir"
+    <section id="contactme-p">
+      <div class="section-title">
+        <h2>Contact Me</h3>
+      </div>
+      <nav>
+        <ul class="contactme-c">
+          <li class="cmlinks"><a href="blank" target="_blank">Email</a></li>
+          <li class="cmlinks"><a href="blank" target="_blank">Linkedin</a></li>
+          <li class="cmlinks"><a href="https://github.com/tesseir"
             target="_blank">Github</a></li>
-      </ul>
-    </nav>
-  </section>
+        </ul>
+      </nav>
+    </section>
 
-  <footer>
-    <a class="footer-b" href="banner-nav">Back to Top</a>
-  </footer>
+  </div>
 
 </body>
 
