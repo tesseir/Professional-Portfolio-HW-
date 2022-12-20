@@ -25,16 +25,23 @@ html body {
 
 */
 
+
 header {
   background-color: #23272a;
   height: 150px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center ;
 }
 
-header section.logo-area {
-  align-items: flex-start;
+header section {
+  background-color: c#23272a;
+  width: 200px;
+  text-align: left;
+  
+  display: flex;
+  justify-content: flex-end;
+  /* outline:solid red;  */
 }
 
 header img.mypfp {
@@ -44,15 +51,8 @@ header img.mypfp {
   border-radius: 50%;
 }
 
-header section {
-  background-color: c#23272a;
-  width: 300px;
-  text-align: right;
-  padding-right: 15px;
-  display: inline;
-}
-
 header section h1 {
+  padding-top: 30px;
   font-size: 40px;
 }
 
@@ -62,15 +62,23 @@ header nav.banner-p {
 
 header nav ul {
   margin: 0;
-  padding: 0;
+  padding-right: 100px;
   list-style-type: none;
+  font-size: 100%;
 }
 
 header nav ul li {
   display: inline;
+ 
 }
 
 /*BREAK*/
+
+main section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 
 section {
   width: 70%;
@@ -83,7 +91,7 @@ section {
 }
 
 section div.section-title {
-  width: 25%;
+  width: 25% 26%;
   border-right: 4px solid #23272a;
   text-align: right;
   padding-right: 10px;
@@ -97,4 +105,24 @@ section figure .works-c  {
 section figure a .work-links {
   width: 75%;
   height: 75%;
+}
+
+section h2 {
+  width: 100px;
+}
+
+.contactme-p {
+  border-top: 4px solid #23272a;
+  outline: solid red;
+}
+
+.contactme-p ul {
+  display: flex;
+  align-items: center;
+}
+
+section p {
+  display: flex;
+  flex-direction: column;
+
 }
