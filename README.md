@@ -27,9 +27,9 @@ Download the files to your local drive, and run "Index.HTML" on Chrome. Once the
 
 Please download all files to your pc, and keep them together in the folder "Prework-Study-Guide" as they are crucial to the site working properly.
 
-![Capture1] (https://raw.githubusercontent.com/tesseir/Professional-Portfolio-HW-/main/assets/images/Capture1.PNG)
+![Capture1](https://raw.githubusercontent.com/tesseir/Professional-Portfolio-HW-/main/assets/images/Capture1.PNG)
 
-![Capture2] (https://raw.githubusercontent.com/tesseir/Professional-Portfolio-HW-/main/assets/images/Capture2.PNG)
+![Capture2](https://raw.githubusercontent.com/tesseir/Professional-Portfolio-HW-/main/assets/images/Capture2.PNG)
 
 
 ## Credits
